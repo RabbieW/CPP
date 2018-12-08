@@ -8,8 +8,8 @@ int main(){
 	shi = miao / 3600;
 	fen = miao % 3600 / 60;
 	miao = miao % 60;
-	cout << shi << "Ê±"
-	     << fen << "·Ö"
-		 << miao << "Ãë"
-		 << endl; 
+	cout << shi << "hours"
+	     << fen << "minutes"
+	     << miao << "seconds"
+	     << endl; 
 }
